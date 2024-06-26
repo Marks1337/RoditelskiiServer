@@ -33,5 +33,5 @@ app.post("/form", (req, res) => {
 });
 
 app.listen(6033, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on port 6033`);
 });
