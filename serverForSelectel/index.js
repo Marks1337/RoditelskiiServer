@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 const connection = mysql.createConnection({
-  host: "master.21d2cae3-ce77-4c9b-91c9-42d8499a0141.c.dbaas.selcloud.ru",
+  host: "45.130.9.238",
   port: 6033,
   database: "feedbackform",
   user: "Chester",
