@@ -10,6 +10,7 @@ app.use(express.json());
 
 const connection = mysql.createConnection({
   host: "45.130.9.238",
+  port: 6033,
   database: "feedbackform",
   user: "Chester",
   password: "35cEN8xoKI3O",
@@ -31,6 +32,6 @@ app.post("/form", (req, res) => {
   );
 });
 
-app.listen(6033, () => {
+app.listen(3001, () => {
   console.log(`Server is running on port 6033`);
 });
